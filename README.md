@@ -9,7 +9,7 @@ Install this library using
 
 Import `PouchyStore` from library in your Model Class
 ```
-import PouchyStore from 'pouchy-store';
+import {PouchyStore} from 'pouchy-store';
 import config from '../config';
 
 class ModelStore extends PouchyStore {

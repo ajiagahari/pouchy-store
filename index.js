@@ -1,3 +1,3 @@
 const PouchyStore = require('./PouchyStore');
-
-module.exports = PouchyStore;
+const usePouchy = require('./react');
+module.exports = { PouchyStore, usePouchy };
